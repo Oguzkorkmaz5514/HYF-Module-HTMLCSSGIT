@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,400&display=swap");
+/* I used box*sizing for including the width and height properties in the content, padding, and border. But they are not
+including the margin*/
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+:root {
+  --clr-black: black;
+  --clr-white: white;
+  --clr-grey: rgba(219, 217, 217, 0.753);
+  --spc-sm: 0.8rem;
+  --spc-md: 1.6rem;
+  --spc-l: 2.4rem;
+  --spc-xl: 3.2rem;
+  --spc-xxl: 4rem;
+  --font-sm: 44px;
+  --font-md: 46px;
+  --font-xl: 50px;
+  --font-xxl: 54px;
+}
+/* I gave some properties for avoiding defoult properties. I added back ground color, and font properties */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  
+}   
+.container-general {
+  border: 1px solid black;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* I added some font properties for using in the code */
+h1 {
+  font-size: var(--font-xxl);
+}
+
+h2 {
+  font-size: var(--font-xl);
+}
+h3 {
+  font-size: var(--font-md);
+}
+h4,
+p {
+  font-size: var(--font-sm);
+}
+/* I canceled underline property for links */
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  /* font-weight: bolder; */
+}
+ul {
+  /* list-style: none; */
+  margin: 0;
+  padding: 0;
+  font-size: var(--font-sm);
+}
+
+header {
+  background-color: rgb(56, 76, 255);
+}
+.header-loc {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: var(--spc-sm) 0;
+}
+.pp{
+    margin-bottom: -250px;
+    margin-left: -130px;
+    z-index: 1;
+}
+.header-info {
+  text-align: left;
+  margin-left: -150px;
+  padding-right: 150px;
+}
+header h1 {
+  font-size: 120px;
+  color: white;
+  padding-bottom: 100px;
+}
+header h3 {
+  font-size: 90px;
+  color: white;
+  padding-top: 100px;
+  
+}
+.container-main{
+    display: flex;
+}
+.aside-color{
+    background-color: rgb(226, 226, 226); 
+    width: 35%;
+}
+aside {
+  
+  margin: 225px 30px 0px 30px;
+  padding: 0px 25px;
+}
+aside ul {
+  padding-left: 50px;
+  text-align: justify;
+}
+.get-contact-title {
+  text-decoration: underline;
+}
+.perprof-title {
+  text-decoration: underline;
+}
+.profile p {
+  text-align: justify;
+}
+.exp-title {
+  text-decoration: underline;
+}
+.skills-title {
+  text-decoration: underline;
+}
+
+main {
+  width: 60%;
+  margin: 0px 30px ;
+  padding: 0px 25px;
+}
+main ul {
+  padding-left: 50px;
+  text-align: justify;
+}
+.experience-title {
+  text-decoration: underline;
+}
+.project-eng-titel {
+  margin: 2px 0px 2px 0px;
+}
+.arcelik-global {
+  margin: 0px;
+}
+.intern-title {
+  margin: 10px 0px 2px 0px;
+}
+.unbrick-title {
+  margin: 0px;
+}
+.kale-title {
+  margin: 0px;
+}
+.tai-title {
+  margin: 0px;
+}
+.trip-title {
+  margin: 0px;
+}
+.volunteer-title {
+  margin: 10px 0px 2px 0px;
+}
+.volunteer-text {
+  margin: 0px;
+}
+
+.education-title {
+  text-decoration: underline;
+}
+.itu-title {
+  margin: 2px 0px 2px 0px;
+}
+.itu-text {
+  margin: 0px;
+}
+.turafa-title {
+  margin: 2px 0px 2px 0px;
+}
+.turafa-text {
+  margin: 0px;
+}

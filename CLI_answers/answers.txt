@@ -1,0 +1,3 @@
+"1- I used mkdir comment for creating a folder, then we can use attrib +s +h e:\answers.txt and tap Enter for hiding file, and attrib -s -h e:\answers.txt and press Enter to unhide the "answers" document." 
+"2-We can use attrib +s +h e:\answers.txt and tap Enter for hiding file, and attrib -s -h e:\answers.txt and press Enter to unhide the "answers" document." 
+"3- I used echo "text" >> textfilename.txt comment" 
