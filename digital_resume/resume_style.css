@@ -65,7 +65,7 @@ header {
   padding: var(--spc-sm) 0;
 }
 .pp{
-    margin-bottom: -125px;
+    margin-bottom: -100px;
     margin-left: -110px;
     z-index: 1;
 }
