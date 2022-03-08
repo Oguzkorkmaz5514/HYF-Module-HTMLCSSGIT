@@ -74,11 +74,11 @@ header {
   margin-left: -150px;
   padding-right: 150px;
 }
-header h1 {
+.myname {
   color: white;
   padding-bottom: 50px;
 }
-header h2 {
+.job-title {
   color: white;
   padding-top: 50px;
   
