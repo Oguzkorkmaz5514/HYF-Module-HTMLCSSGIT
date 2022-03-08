@@ -14,10 +14,9 @@ including the margin*/
   --spc-l: 2.4rem;
   --spc-xl: 3.2rem;
   --spc-xxl: 4rem;
-  --font-sm: 44px;
-  --font-md: 46px;
-  --font-xl: 50px;
-  --font-xxl: 54px;
+  --font-md: 1.8rem;
+  --font-lg: 2rem;
+  --font-xl: 2.2rem;
 }
 /* I gave some properties for avoiding defoult properties. I added back ground color, and font properties */
 body {
@@ -35,18 +34,14 @@ body {
 }
 /* I added some font properties for using in the code */
 h1 {
-  font-size: var(--font-xxl);
+  font-size: var(--font-xl);
 }
 
 h2 {
-  font-size: var(--font-xl);
+  font-size: var(--font-lg);
 }
 h3 {
   font-size: var(--font-md);
-}
-h4,
-p {
-  font-size: var(--font-sm);
 }
 /* I canceled underline property for links */
 a {
@@ -58,7 +53,6 @@ ul {
   /* list-style: none; */
   margin: 0;
   padding: 0;
-  font-size: var(--font-sm);
 }
 
 header {
@@ -81,12 +75,10 @@ header {
   padding-right: 150px;
 }
 header h1 {
-  font-size: 120px;
   color: white;
   padding-bottom: 100px;
 }
 header h3 {
-  font-size: 90px;
   color: white;
   padding-top: 100px;
   
