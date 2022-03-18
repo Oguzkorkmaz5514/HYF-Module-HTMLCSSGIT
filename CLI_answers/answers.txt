@@ -1,3 +1,5 @@
-"1- I used mkdir comment for creating a folder, then we can use attrib +s +h e:\answers.txt and tap Enter for hiding file, and attrib -s -h e:\answers.txt and press Enter to unhide the "answers" document." 
-"2-We can use attrib +s +h e:\answers.txt and tap Enter for hiding file, and attrib -s -h e:\answers.txt and press Enter to unhide the "answers" document." 
-"3- I used echo "text" >> textfilename.txt comment" 
+Hello these are my CLI challange answers:
+1-  For creating a hidden folder we can add a dot (.) at the front of folder name. Like as: mkdir .CLI_answers
+    We can use ls -a command for displaying of hidden folders.
+2-  For making to create multiple nested directories, we can use mkdir -p this/is/a/new/directory command.
+3-  I used echo "text" >> textfilename.txt comment.
