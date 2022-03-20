@@ -126,46 +126,15 @@ main ul {
 .experience-title {
   text-decoration: underline;
 }
-.project-eng-titel {
+.ab{
   margin: 2px 0px 2px 0px;
 }
-.arcelik-global {
-  margin: 0px;
-}
-.intern-title {
+.ac{
   margin: 10px 0px 2px 0px;
 }
-.unbrick-title {
+.ad{
   margin: 0px;
 }
-.kale-title {
-  margin: 0px;
-}
-.tai-title {
-  margin: 0px;
-}
-.trip-title {
-  margin: 0px;
-}
-.volunteer-title {
-  margin: 10px 0px 2px 0px;
-}
-.volunteer-text {
-  margin: 0px;
-}
-
 .education-title {
   text-decoration: underline;
-}
-.itu-title {
-  margin: 2px 0px 2px 0px;
-}
-.itu-text {
-  margin: 0px;
-}
-.turafa-title {
-  margin: 2px 0px 2px 0px;
-}
-.turafa-text {
-  margin: 0px;
 }
